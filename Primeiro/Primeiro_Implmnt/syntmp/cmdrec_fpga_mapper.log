@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synlog\report\Primeiro_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.edf   -autoconstraint  -freq 1.000   D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synwork\Primeiro_prem.srd  -sap  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.sap  -otap  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.tap  -omap  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.map  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.sap  -ologparam  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\syntmp\Primeiro.plg  -osyn  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.srm  -prjdir  D:\Users\Rui\Documents\FPGA\Primeiro\  -prjname  Primeiro_syn  -log  D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synlog\Primeiro_fpga_mapper.srr 
+rc:0 success:1 runtime:2
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.edf|io:o|time:1738436812|size:7260|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synwork\Primeiro_prem.srd|io:i|time:1738436811|size:1542|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.sap|io:o|time:1738436811|size:121|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.tap|io:o|time:0|size:0|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.map|io:o|time:1738436812|size:28|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1734905425|size:224837|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.sap|io:o|time:1738436811|size:121|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\syntmp\Primeiro.plg|io:o|time:1738436812|size:277|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\Primeiro.srm|io:o|time:1738436812|size:6830|exec:0
+file:D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synlog\Primeiro_fpga_mapper.srr|io:o|time:1738436812|size:7290|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1734905421|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1734905423|size:32355840|exec:1

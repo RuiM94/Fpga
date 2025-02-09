@@ -1,0 +1,22 @@
+22:45:08
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Primeiro_syn.prj" -log "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Error: Fail to get license for Lattice OEM Synplify.
+Synthesis failed.
+Synthesis batch mode runtime 41 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Primeiro_syn.prj" -log "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Error: Fail to get license for Lattice OEM Synplify.
+Synthesis failed.
+Synthesis batch mode runtime 4 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Primeiro_syn.prj" -log "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Error: Fail to get license for Lattice OEM Synplify.
+Synthesis failed.
+Synthesis batch mode runtime 22 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Primeiro_syn.prj" -log "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Error: Fail to get license for Lattice OEM Synplify.
+Synthesis failed.
+Synthesis batch mode runtime 9 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Primeiro_syn.prj" -log "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Error: Fail to get license for Lattice OEM Synplify.
+Synthesis failed.
+Synthesis batch mode runtime 17 seconds22:47:57
