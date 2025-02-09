@@ -1,4 +1,0 @@
-@E: CD126 :"D:\Users\Rui\Documents\FPGA\primeiro.vhd":14:4:14:4|Expecting identifier
-@E: CD632 :"D:\Users\Rui\Documents\FPGA\primeiro.vhd":15:27:15:27|duplicate entity name switches_to_leds
-@E: Parse errors encountered - exiting
-
