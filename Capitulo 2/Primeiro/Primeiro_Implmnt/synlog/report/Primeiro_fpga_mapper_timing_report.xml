@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synlog\Primeiro_fpga_mapper.srr</data>
+<data>D:\Users\Rui\Documents\FPGA\Capitulo 2\Primeiro\Primeiro_Implmnt\synlog\Primeiro_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>

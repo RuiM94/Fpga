@@ -5,7 +5,7 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\synlog\report\Primeiro_fpga_mapper_resourceusage.rpt</data>
+<data>D:\Users\Rui\Documents\FPGA\Capitulo 2\Primeiro\Primeiro_Implmnt\synlog\report\Primeiro_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total PADS used" name="PADS">

@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\run_options.txt
-#--  Written on Sat Feb 01 20:06:49 2025
+#--  Project file D:\Users\Rui\Documents\FPGA\Capitulo 2\Primeiro\Primeiro_Implmnt\run_options.txt
+#--  Written on Wed Feb 12 20:02:14 2025
 
 
 #project files

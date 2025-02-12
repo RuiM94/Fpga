@@ -1,7 +1,7 @@
 (DELAYFILE                 // Header Section
    (SDFVERSION "3.0")
    (DESIGN "Switches_To_LEDs")
-   (DATE "Sat Feb 01 20:07:03 2025")
+   (DATE "Wed Feb 12 20:02:32 2025")
    (VENDOR "SiliconBlue Technologies Corporation")
    (DIVIDER /)
    (TIMESCALE 1ps)
@@ -15,98 +15,80 @@
       )
    )
    (CELL
-      (CELLTYPE "IoSpan4Mux")
+      (CELLTYPE "LocalMux")
       (INSTANCE I__12)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (231.127:255.579:287.552) (259.313:286.747:322.619))
+            (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
          )
       )
    )
    (CELL
-      (CELLTYPE "LocalMux")
+      (CELLTYPE "IoInMux")
       (INSTANCE I__13)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
+            (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
          )
       )
    )
    (CELL
-      (CELLTYPE "IoInMux")
+      (CELLTYPE "Odrv4")
       (INSTANCE I__14)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
+            (IOPATH I O (281.862:311.682:350.673) (298.774:330.382:371.713))
          )
       )
    )
    (CELL
-      (CELLTYPE "Odrv4")
+      (CELLTYPE "LocalMux")
       (INSTANCE I__15)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (281.862:311.682:350.673) (298.774:330.382:371.713))
+            (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
          )
       )
    )
    (CELL
-      (CELLTYPE "IoSpan4Mux")
+      (CELLTYPE "IoInMux")
       (INSTANCE I__16)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (231.127:255.579:287.552) (259.313:286.747:322.619))
+            (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
          )
       )
    )
    (CELL
-      (CELLTYPE "LocalMux")
+      (CELLTYPE "Odrv4")
       (INSTANCE I__17)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
+            (IOPATH I O (281.862:311.682:350.673) (298.774:330.382:371.713))
          )
       )
    )
    (CELL
-      (CELLTYPE "IoInMux")
+      (CELLTYPE "IoSpan4Mux")
       (INSTANCE I__18)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
+            (IOPATH I O (231.127:255.579:287.552) (259.313:286.747:322.619))
          )
       )
    )
    (CELL
-      (CELLTYPE "Odrv4")
+      (CELLTYPE "LocalMux")
       (INSTANCE I__19)
       (DELAY
          (ABSOLUTE 
-            (IOPATH I O (281.862:311.682:350.673) (298.774:330.382:371.713))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "IoSpan4Mux")
-      (INSTANCE I__20)
-      (DELAY
-         (ABSOLUTE 
-            (IOPATH I O (231.127:255.579:287.552) (259.313:286.747:322.619))
-         )
-      )
-   )
-   (CELL
-      (CELLTYPE "LocalMux")
-      (INSTANCE I__21)
-      (DELAY
-         (ABSOLUTE 
             (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
          )
       )
    )
    (CELL
       (CELLTYPE "IoInMux")
-      (INSTANCE I__22)
+      (INSTANCE I__20)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
@@ -115,7 +97,7 @@
    )
    (CELL
       (CELLTYPE "Odrv4")
-      (INSTANCE I__23)
+      (INSTANCE I__21)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (281.862:311.682:350.673) (298.774:330.382:371.713))
@@ -124,7 +106,7 @@
    )
    (CELL
       (CELLTYPE "IoSpan4Mux")
-      (INSTANCE I__24)
+      (INSTANCE I__22)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (231.127:255.579:287.552) (259.313:286.747:322.619))
@@ -133,7 +115,7 @@
    )
    (CELL
       (CELLTYPE "LocalMux")
-      (INSTANCE I__25)
+      (INSTANCE I__23)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (264.95:292.981:329.632) (248.039:274.28:308.592))
@@ -142,7 +124,7 @@
    )
    (CELL
       (CELLTYPE "IoInMux")
-      (INSTANCE I__26)
+      (INSTANCE I__24)
       (DELAY
          (ABSOLUTE 
             (IOPATH I O (208.578:230.644:259.498) (174.754:193.243:217.417))
@@ -177,7 +159,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )
@@ -210,7 +192,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )
@@ -275,7 +257,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )
@@ -307,7 +289,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )
@@ -340,7 +322,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )
@@ -372,7 +354,7 @@
          (ABSOLUTE 
             (IOPATH DIN PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
             (IOPATH OE PACKAGEPIN (1914:1914:1914) (2088:2088:2088))
-            (IOPATH OE PACKAGEPIN (1681:1681:1681) (1617:1617:1617))
+            (IOPATH OE PACKAGEPIN (1768:1768:1768) (1634:1634:1634))
             (IOPATH PACKAGEPIN DOUT (510:510:510) (460:460:460))
          )
       )

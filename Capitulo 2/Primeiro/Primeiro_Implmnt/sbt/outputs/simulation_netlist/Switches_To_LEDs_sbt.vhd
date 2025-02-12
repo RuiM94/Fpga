@@ -6,7 +6,7 @@
 
 -- Build Date:         Dec  9 2020 18:18:06
 
--- File Generated:     Feb 1 2025 20:07:02
+-- File Generated:     Feb 12 2025 20:02:31
 
 -- Purpose:            Post-Route Verilog/VHDL netlist for timing simulation
 
@@ -41,32 +41,30 @@ end Switches_To_LEDs;
 -- View name is \INTERFACE\
 architecture \INTERFACE\ of Switches_To_LEDs is
 
-signal \N__227\ : std_logic;
-signal \N__226\ : std_logic;
-signal \N__225\ : std_logic;
-signal \N__218\ : std_logic;
-signal \N__217\ : std_logic;
-signal \N__216\ : std_logic;
-signal \N__209\ : std_logic;
-signal \N__208\ : std_logic;
-signal \N__207\ : std_logic;
-signal \N__200\ : std_logic;
-signal \N__199\ : std_logic;
-signal \N__198\ : std_logic;
-signal \N__191\ : std_logic;
-signal \N__190\ : std_logic;
-signal \N__189\ : std_logic;
-signal \N__182\ : std_logic;
-signal \N__181\ : std_logic;
-signal \N__180\ : std_logic;
-signal \N__173\ : std_logic;
-signal \N__172\ : std_logic;
-signal \N__171\ : std_logic;
-signal \N__164\ : std_logic;
-signal \N__163\ : std_logic;
-signal \N__162\ : std_logic;
-signal \N__145\ : std_logic;
-signal \N__142\ : std_logic;
+signal \N__221\ : std_logic;
+signal \N__220\ : std_logic;
+signal \N__219\ : std_logic;
+signal \N__212\ : std_logic;
+signal \N__211\ : std_logic;
+signal \N__210\ : std_logic;
+signal \N__203\ : std_logic;
+signal \N__202\ : std_logic;
+signal \N__201\ : std_logic;
+signal \N__194\ : std_logic;
+signal \N__193\ : std_logic;
+signal \N__192\ : std_logic;
+signal \N__185\ : std_logic;
+signal \N__184\ : std_logic;
+signal \N__183\ : std_logic;
+signal \N__176\ : std_logic;
+signal \N__175\ : std_logic;
+signal \N__174\ : std_logic;
+signal \N__167\ : std_logic;
+signal \N__166\ : std_logic;
+signal \N__165\ : std_logic;
+signal \N__158\ : std_logic;
+signal \N__157\ : std_logic;
+signal \N__156\ : std_logic;
 signal \N__139\ : std_logic;
 signal \N__136\ : std_logic;
 signal \N__133\ : std_logic;
@@ -114,9 +112,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__227\,
-            DIN => \N__226\,
-            DOUT => \N__225\,
+            OE => \N__221\,
+            DIN => \N__220\,
+            DOUT => \N__219\,
             PACKAGEPIN => \i_Switch_1_wire\
         );
 
@@ -126,9 +124,9 @@ begin
             PIN_TYPE => "000001"
         )
     port map (
-            PADOEN => \N__227\,
-            PADOUT => \N__226\,
-            PADIN => \N__225\,
+            PADOEN => \N__221\,
+            PADOUT => \N__220\,
+            PADIN => \N__219\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
@@ -146,9 +144,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__218\,
-            DIN => \N__217\,
-            DOUT => \N__216\,
+            OE => \N__212\,
+            DIN => \N__211\,
+            DOUT => \N__210\,
             PACKAGEPIN => \i_Switch_3_wire\
         );
 
@@ -158,9 +156,9 @@ begin
             PIN_TYPE => "000001"
         )
     port map (
-            PADOEN => \N__218\,
-            PADOUT => \N__217\,
-            PADIN => \N__216\,
+            PADOEN => \N__212\,
+            PADOUT => \N__211\,
+            PADIN => \N__210\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
@@ -178,9 +176,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__209\,
-            DIN => \N__208\,
-            DOUT => \N__207\,
+            OE => \N__203\,
+            DIN => \N__202\,
+            DOUT => \N__201\,
             PACKAGEPIN => \o_LED_2_wire\
         );
 
@@ -190,14 +188,14 @@ begin
             PIN_TYPE => "011001"
         )
     port map (
-            PADOEN => \N__209\,
-            PADOUT => \N__208\,
-            PADIN => \N__207\,
+            PADOEN => \N__203\,
+            PADOUT => \N__202\,
+            PADIN => \N__201\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
             DIN0 => OPEN,
-            DOUT0 => \N__133\,
+            DOUT0 => \N__127\,
             INPUTCLK => '0',
             LATCHINPUTVALUE => '0',
             DIN1 => OPEN,
@@ -210,9 +208,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__200\,
-            DIN => \N__199\,
-            DOUT => \N__198\,
+            OE => \N__194\,
+            DIN => \N__193\,
+            DOUT => \N__192\,
             PACKAGEPIN => \i_Switch_2_wire\
         );
 
@@ -222,9 +220,9 @@ begin
             PIN_TYPE => "000001"
         )
     port map (
-            PADOEN => \N__200\,
-            PADOUT => \N__199\,
-            PADIN => \N__198\,
+            PADOEN => \N__194\,
+            PADOUT => \N__193\,
+            PADIN => \N__192\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
@@ -242,9 +240,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__191\,
-            DIN => \N__190\,
-            DOUT => \N__189\,
+            OE => \N__185\,
+            DIN => \N__184\,
+            DOUT => \N__183\,
             PACKAGEPIN => \i_Switch_4_wire\
         );
 
@@ -254,9 +252,9 @@ begin
             PIN_TYPE => "000001"
         )
     port map (
-            PADOEN => \N__191\,
-            PADOUT => \N__190\,
-            PADIN => \N__189\,
+            PADOEN => \N__185\,
+            PADOUT => \N__184\,
+            PADIN => \N__183\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
@@ -274,9 +272,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__182\,
-            DIN => \N__181\,
-            DOUT => \N__180\,
+            OE => \N__176\,
+            DIN => \N__175\,
+            DOUT => \N__174\,
             PACKAGEPIN => \o_LED_1_wire\
         );
 
@@ -286,14 +284,14 @@ begin
             PIN_TYPE => "011001"
         )
     port map (
-            PADOEN => \N__182\,
-            PADOUT => \N__181\,
-            PADIN => \N__180\,
+            PADOEN => \N__176\,
+            PADOUT => \N__175\,
+            PADIN => \N__174\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
             DIN0 => OPEN,
-            DOUT0 => \N__109\,
+            DOUT0 => \N__106\,
             INPUTCLK => '0',
             LATCHINPUTVALUE => '0',
             DIN1 => OPEN,
@@ -306,9 +304,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__173\,
-            DIN => \N__172\,
-            DOUT => \N__171\,
+            OE => \N__167\,
+            DIN => \N__166\,
+            DOUT => \N__165\,
             PACKAGEPIN => \o_LED_3_wire\
         );
 
@@ -318,14 +316,14 @@ begin
             PIN_TYPE => "011001"
         )
     port map (
-            PADOEN => \N__173\,
-            PADOUT => \N__172\,
-            PADIN => \N__171\,
+            PADOEN => \N__167\,
+            PADOUT => \N__166\,
+            PADIN => \N__165\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
             DIN0 => OPEN,
-            DOUT0 => \N__121\,
+            DOUT0 => \N__115\,
             INPUTCLK => '0',
             LATCHINPUTVALUE => '0',
             DIN1 => OPEN,
@@ -338,9 +336,9 @@ begin
             PULLUP => '0'
         )
     port map (
-            OE => \N__164\,
-            DIN => \N__163\,
-            DOUT => \N__162\,
+            OE => \N__158\,
+            DIN => \N__157\,
+            DOUT => \N__156\,
             PACKAGEPIN => \o_LED_4_wire\
         );
 
@@ -350,105 +348,93 @@ begin
             PIN_TYPE => "011001"
         )
     port map (
-            PADOEN => \N__164\,
-            PADOUT => \N__163\,
-            PADIN => \N__162\,
+            PADOEN => \N__158\,
+            PADOUT => \N__157\,
+            PADIN => \N__156\,
             CLOCKENABLE => 'H',
             DOUT1 => '0',
             OUTPUTENABLE => '0',
             DIN0 => OPEN,
-            DOUT0 => \N__145\,
+            DOUT0 => \N__139\,
             INPUTCLK => '0',
             LATCHINPUTVALUE => '0',
             DIN1 => OPEN,
             OUTPUTCLK => '0'
         );
 
-    \I__26\ : IoInMux
-    port map (
-            O => \N__145\,
-            I => \N__142\
-        );
-
-    \I__25\ : LocalMux
-    port map (
-            O => \N__142\,
-            I => \N__139\
-        );
-
-    \I__24\ : IoSpan4Mux
+    \I__24\ : IoInMux
     port map (
             O => \N__139\,
             I => \N__136\
         );
 
-    \I__23\ : Odrv4
+    \I__23\ : LocalMux
     port map (
             O => \N__136\,
-            I => \o_LED_4_c\
+            I => \N__133\
         );
 
-    \I__22\ : IoInMux
+    \I__22\ : IoSpan4Mux
     port map (
             O => \N__133\,
             I => \N__130\
         );
 
-    \I__21\ : LocalMux
+    \I__21\ : Odrv4
     port map (
             O => \N__130\,
-            I => \N__127\
+            I => \o_LED_4_c\
         );
 
-    \I__20\ : IoSpan4Mux
+    \I__20\ : IoInMux
     port map (
             O => \N__127\,
             I => \N__124\
         );
 
-    \I__19\ : Odrv4
+    \I__19\ : LocalMux
     port map (
             O => \N__124\,
-            I => \o_LED_2_c\
+            I => \N__121\
         );
 
-    \I__18\ : IoInMux
+    \I__18\ : IoSpan4Mux
     port map (
             O => \N__121\,
             I => \N__118\
         );
 
-    \I__17\ : LocalMux
+    \I__17\ : Odrv4
     port map (
             O => \N__118\,
-            I => \N__115\
+            I => \o_LED_2_c\
         );
 
-    \I__16\ : IoSpan4Mux
+    \I__16\ : IoInMux
     port map (
             O => \N__115\,
             I => \N__112\
         );
 
-    \I__15\ : Odrv4
+    \I__15\ : LocalMux
     port map (
             O => \N__112\,
+            I => \N__109\
+        );
+
+    \I__14\ : Odrv4
+    port map (
+            O => \N__109\,
             I => \o_LED_3_c\
         );
 
-    \I__14\ : IoInMux
-    port map (
-            O => \N__109\,
-            I => \N__106\
-        );
-
-    \I__13\ : LocalMux
+    \I__13\ : IoInMux
     port map (
             O => \N__106\,
             I => \N__103\
         );
 
-    \I__12\ : IoSpan4Mux
+    \I__12\ : LocalMux
     port map (
             O => \N__103\,
             I => \N__100\

@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt\scratchproject.prs
+#--  Project file D:\Users\Rui\Documents\FPGA\Capitulo 2\Primeiro\Primeiro_Implmnt\scratchproject.prs
 
 #project files
-add_file -vhdl -lib work "D:/Users/Rui/Documents/FPGA/primeiro.vhd"
+add_file -vhdl -lib work "D:/Users/Rui/Documents/FPGA/Capitulo 2/primeiro.vhd"
 
 
 
 #implementation: "Primeiro_Implmnt"
-impl -add D:\Users\Rui\Documents\FPGA\Primeiro\Primeiro_Implmnt -type fpga
+impl -add "D:\Users\Rui\Documents\FPGA\Capitulo 2\Primeiro\Primeiro_Implmnt" -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {D:/Users/Rui/Documents/FPGA/Primeiro/}
+set_option -include_path {D:/Users/Rui/Documents/FPGA/Capitulo 2/Primeiro/}
 
 #device options
 set_option -technology SBTiCE40
@@ -64,5 +64,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/Users/Rui/Documents/FPGA/Primeiro/Primeiro_Implmnt/Primeiro.edf"
+project -result_file "D:/Users/Rui/Documents/FPGA/Capitulo 2/Primeiro/Primeiro_Implmnt/Primeiro.edf"
 impl -active "Primeiro_Implmnt"

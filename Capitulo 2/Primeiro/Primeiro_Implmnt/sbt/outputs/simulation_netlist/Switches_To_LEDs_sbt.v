@@ -6,7 +6,7 @@
 
 // Build Date:         Dec  9 2020 18:18:12
 
-// File Generated:     Feb 1 2025 20:07:02
+// File Generated:     Feb 12 2025 20:02:31
 
 // Purpose:            Post-Route Verilog/VHDL netlist for timing simulation
 
@@ -35,32 +35,30 @@ module Switches_To_LEDs (
     input i_Switch_3;
     input i_Switch_1;
 
-    wire N__227;
-    wire N__226;
-    wire N__225;
-    wire N__218;
-    wire N__217;
-    wire N__216;
-    wire N__209;
-    wire N__208;
-    wire N__207;
-    wire N__200;
-    wire N__199;
-    wire N__198;
-    wire N__191;
-    wire N__190;
-    wire N__189;
-    wire N__182;
-    wire N__181;
-    wire N__180;
-    wire N__173;
-    wire N__172;
-    wire N__171;
-    wire N__164;
-    wire N__163;
-    wire N__162;
-    wire N__145;
-    wire N__142;
+    wire N__221;
+    wire N__220;
+    wire N__219;
+    wire N__212;
+    wire N__211;
+    wire N__210;
+    wire N__203;
+    wire N__202;
+    wire N__201;
+    wire N__194;
+    wire N__193;
+    wire N__192;
+    wire N__185;
+    wire N__184;
+    wire N__183;
+    wire N__176;
+    wire N__175;
+    wire N__174;
+    wire N__167;
+    wire N__166;
+    wire N__165;
+    wire N__158;
+    wire N__157;
+    wire N__156;
     wire N__139;
     wire N__136;
     wire N__133;
@@ -84,16 +82,16 @@ module Switches_To_LEDs (
     wire _gnd_net_;
 
     IO_PAD i_Switch_1_ibuf_iopad (
-            .OE(N__227),
-            .DIN(N__226),
-            .DOUT(N__225),
+            .OE(N__221),
+            .DIN(N__220),
+            .DOUT(N__219),
             .PACKAGEPIN(i_Switch_1));
     defparam i_Switch_1_ibuf_preio.NEG_TRIGGER=1'b0;
     defparam i_Switch_1_ibuf_preio.PIN_TYPE=6'b000001;
     PRE_IO i_Switch_1_ibuf_preio (
-            .PADOEN(N__227),
-            .PADOUT(N__226),
-            .PADIN(N__225),
+            .PADOEN(N__221),
+            .PADOUT(N__220),
+            .PADIN(N__219),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
@@ -104,16 +102,16 @@ module Switches_To_LEDs (
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD i_Switch_3_ibuf_iopad (
-            .OE(N__218),
-            .DIN(N__217),
-            .DOUT(N__216),
+            .OE(N__212),
+            .DIN(N__211),
+            .DOUT(N__210),
             .PACKAGEPIN(i_Switch_3));
     defparam i_Switch_3_ibuf_preio.NEG_TRIGGER=1'b0;
     defparam i_Switch_3_ibuf_preio.PIN_TYPE=6'b000001;
     PRE_IO i_Switch_3_ibuf_preio (
-            .PADOEN(N__218),
-            .PADOUT(N__217),
-            .PADIN(N__216),
+            .PADOEN(N__212),
+            .PADOUT(N__211),
+            .PADIN(N__210),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
@@ -124,36 +122,36 @@ module Switches_To_LEDs (
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD o_LED_2_obuf_iopad (
-            .OE(N__209),
-            .DIN(N__208),
-            .DOUT(N__207),
+            .OE(N__203),
+            .DIN(N__202),
+            .DOUT(N__201),
             .PACKAGEPIN(o_LED_2));
     defparam o_LED_2_obuf_preio.NEG_TRIGGER=1'b0;
     defparam o_LED_2_obuf_preio.PIN_TYPE=6'b011001;
     PRE_IO o_LED_2_obuf_preio (
-            .PADOEN(N__209),
-            .PADOUT(N__208),
-            .PADIN(N__207),
+            .PADOEN(N__203),
+            .PADOUT(N__202),
+            .PADIN(N__201),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
             .DIN0(),
-            .DOUT0(N__133),
+            .DOUT0(N__127),
             .INPUTCLK(),
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD i_Switch_2_ibuf_iopad (
-            .OE(N__200),
-            .DIN(N__199),
-            .DOUT(N__198),
+            .OE(N__194),
+            .DIN(N__193),
+            .DOUT(N__192),
             .PACKAGEPIN(i_Switch_2));
     defparam i_Switch_2_ibuf_preio.NEG_TRIGGER=1'b0;
     defparam i_Switch_2_ibuf_preio.PIN_TYPE=6'b000001;
     PRE_IO i_Switch_2_ibuf_preio (
-            .PADOEN(N__200),
-            .PADOUT(N__199),
-            .PADIN(N__198),
+            .PADOEN(N__194),
+            .PADOUT(N__193),
+            .PADIN(N__192),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
@@ -164,16 +162,16 @@ module Switches_To_LEDs (
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD i_Switch_4_ibuf_iopad (
-            .OE(N__191),
-            .DIN(N__190),
-            .DOUT(N__189),
+            .OE(N__185),
+            .DIN(N__184),
+            .DOUT(N__183),
             .PACKAGEPIN(i_Switch_4));
     defparam i_Switch_4_ibuf_preio.NEG_TRIGGER=1'b0;
     defparam i_Switch_4_ibuf_preio.PIN_TYPE=6'b000001;
     PRE_IO i_Switch_4_ibuf_preio (
-            .PADOEN(N__191),
-            .PADOUT(N__190),
-            .PADIN(N__189),
+            .PADOEN(N__185),
+            .PADOUT(N__184),
+            .PADIN(N__183),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
@@ -184,108 +182,102 @@ module Switches_To_LEDs (
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD o_LED_1_obuf_iopad (
-            .OE(N__182),
-            .DIN(N__181),
-            .DOUT(N__180),
+            .OE(N__176),
+            .DIN(N__175),
+            .DOUT(N__174),
             .PACKAGEPIN(o_LED_1));
     defparam o_LED_1_obuf_preio.NEG_TRIGGER=1'b0;
     defparam o_LED_1_obuf_preio.PIN_TYPE=6'b011001;
     PRE_IO o_LED_1_obuf_preio (
-            .PADOEN(N__182),
-            .PADOUT(N__181),
-            .PADIN(N__180),
+            .PADOEN(N__176),
+            .PADOUT(N__175),
+            .PADIN(N__174),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
             .DIN0(),
-            .DOUT0(N__109),
+            .DOUT0(N__106),
             .INPUTCLK(),
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD o_LED_3_obuf_iopad (
-            .OE(N__173),
-            .DIN(N__172),
-            .DOUT(N__171),
+            .OE(N__167),
+            .DIN(N__166),
+            .DOUT(N__165),
             .PACKAGEPIN(o_LED_3));
     defparam o_LED_3_obuf_preio.NEG_TRIGGER=1'b0;
     defparam o_LED_3_obuf_preio.PIN_TYPE=6'b011001;
     PRE_IO o_LED_3_obuf_preio (
-            .PADOEN(N__173),
-            .PADOUT(N__172),
-            .PADIN(N__171),
+            .PADOEN(N__167),
+            .PADOUT(N__166),
+            .PADIN(N__165),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
             .DIN0(),
-            .DOUT0(N__121),
+            .DOUT0(N__115),
             .INPUTCLK(),
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
     IO_PAD o_LED_4_obuf_iopad (
-            .OE(N__164),
-            .DIN(N__163),
-            .DOUT(N__162),
+            .OE(N__158),
+            .DIN(N__157),
+            .DOUT(N__156),
             .PACKAGEPIN(o_LED_4));
     defparam o_LED_4_obuf_preio.NEG_TRIGGER=1'b0;
     defparam o_LED_4_obuf_preio.PIN_TYPE=6'b011001;
     PRE_IO o_LED_4_obuf_preio (
-            .PADOEN(N__164),
-            .PADOUT(N__163),
-            .PADIN(N__162),
+            .PADOEN(N__158),
+            .PADOUT(N__157),
+            .PADIN(N__156),
             .CLOCKENABLE(),
             .DOUT1(),
             .OUTPUTENABLE(),
             .DIN0(),
-            .DOUT0(N__145),
+            .DOUT0(N__139),
             .INPUTCLK(),
             .LATCHINPUTVALUE(),
             .DIN1(),
             .OUTPUTCLK());
-    IoInMux I__26 (
-            .O(N__145),
-            .I(N__142));
-    LocalMux I__25 (
-            .O(N__142),
-            .I(N__139));
-    IoSpan4Mux I__24 (
+    IoInMux I__24 (
             .O(N__139),
             .I(N__136));
-    Odrv4 I__23 (
+    LocalMux I__23 (
             .O(N__136),
-            .I(o_LED_4_c));
-    IoInMux I__22 (
+            .I(N__133));
+    IoSpan4Mux I__22 (
             .O(N__133),
             .I(N__130));
-    LocalMux I__21 (
+    Odrv4 I__21 (
             .O(N__130),
-            .I(N__127));
-    IoSpan4Mux I__20 (
+            .I(o_LED_4_c));
+    IoInMux I__20 (
             .O(N__127),
             .I(N__124));
-    Odrv4 I__19 (
+    LocalMux I__19 (
             .O(N__124),
-            .I(o_LED_2_c));
-    IoInMux I__18 (
+            .I(N__121));
+    IoSpan4Mux I__18 (
             .O(N__121),
             .I(N__118));
-    LocalMux I__17 (
+    Odrv4 I__17 (
             .O(N__118),
-            .I(N__115));
-    IoSpan4Mux I__16 (
+            .I(o_LED_2_c));
+    IoInMux I__16 (
             .O(N__115),
             .I(N__112));
-    Odrv4 I__15 (
+    LocalMux I__15 (
             .O(N__112),
-            .I(o_LED_3_c));
-    IoInMux I__14 (
+            .I(N__109));
+    Odrv4 I__14 (
             .O(N__109),
-            .I(N__106));
-    LocalMux I__13 (
+            .I(o_LED_3_c));
+    IoInMux I__13 (
             .O(N__106),
             .I(N__103));
-    IoSpan4Mux I__12 (
+    LocalMux I__12 (
             .O(N__103),
             .I(N__100));
     Odrv4 I__11 (
