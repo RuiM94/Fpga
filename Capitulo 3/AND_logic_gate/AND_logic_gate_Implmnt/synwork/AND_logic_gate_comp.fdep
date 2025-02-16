@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Users\\Rui\\Documents\\FPGA\\Capitulo 3\\AND_logic_gate\\AND_logic_gate_Implmnt\\synwork\\AND_logic_gate_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_vhdl.exe":1734905422
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\location.map":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std.vhd":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\std1164.vhd":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\numeric.vhd":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1734905426
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\arith.vhd":1734905425
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\unsigned.vhd":1734905426
+#CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vhd\\hyperents.vhd":1734905425
+#CUR:"D:\\Users\\Rui\\Documents\\FPGA\\Capitulo 3\\LUT_and_gate.vhd":1739734814
+0			"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work and_gate_project 0
+arch work and_gate_project rtl 0

@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synwork\AND_logic_gate_comp.srs"  -osyn  "D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synwork\AND_logic_gate_mult.srs"  -log  "D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synlog\AND_logic_gate_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synwork\AND_logic_gate_comp.srs|io:i|time:1739734822|size:1542|exec:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synwork\AND_logic_gate_mult.srs|io:o|time:1739734824|size:1314|exec:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synlog\AND_logic_gate_multi_srs_gen.srr|io:o|time:1739734824|size:703|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1734905422|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1734905424|size:3947520|exec:1

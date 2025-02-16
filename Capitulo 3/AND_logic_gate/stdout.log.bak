@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    GIGABYTE-G5KD
+Date:        Sun Feb 16 20:39:12 2025
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch AND_logic_gate_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\AND_logic_gate.srr"
+Running: AND_logic_gate_Implmnt in foreground
+
+Running AND_logic_gate_syn|AND_logic_gate_Implmnt
+
+Running: compile (Compile) on AND_logic_gate_syn|AND_logic_gate_Implmnt
+# Sun Feb 16 20:39:12 2025
+
+Running: compile_flow (Compile Process) on AND_logic_gate_syn|AND_logic_gate_Implmnt
+# Sun Feb 16 20:39:12 2025
+
+Running: compiler (Compile Input) on AND_logic_gate_syn|AND_logic_gate_Implmnt
+# Sun Feb 16 20:39:12 2025
+compiler exited with errors
+Job failed on: AND_logic_gate_syn|AND_logic_gate_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\Users\Rui\Documents\FPGA\Capitulo 3\AND_logic_gate\AND_logic_gate_Implmnt\synlog\AND_logic_gate_compiler.srr"
+# Sun Feb 16 20:39:12 2025
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on AND_logic_gate_syn|AND_logic_gate_Implmnt
+Complete: Compile on AND_logic_gate_syn|AND_logic_gate_Implmnt
+Complete: Logic Synthesis on AND_logic_gate_syn|AND_logic_gate_Implmnt
+
+exit status=2
+
+exit status=2
+

@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd":4:7:4:22|Top entity is set to And_Gate_Project.
+@N: CD630 :"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd":4:7:4:22|Synthesizing work.and_gate_project.rtl.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd":4:7:4:22|Selected library: work cell: And_Gate_Project view rtl as top level
+@N: NF107 :"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd":4:7:4:22|Selected library: work cell: And_Gate_Project view rtl as top level
+

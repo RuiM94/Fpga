@@ -1,0 +1,3 @@
+@E: CD242 :"D:\Users\Rui\Documents\FPGA\Capitulo 3\LUT_and_gate.vhd":12:0:12:11|Expecting ;
+@E: Parse errors encountered - exiting
+
