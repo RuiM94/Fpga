@@ -1,0 +1,4 @@
+@E: CD126 :"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":9:4:9:4|Expecting identifier
+@E: CD632 :"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":10:29:10:29|duplicate entity name led_toggle_project
+@E: Parse errors encountered - exiting
+

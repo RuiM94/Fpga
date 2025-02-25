@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synwork\Blinking_an_LED_comp.srs"  -osyn  "D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synwork\Blinking_an_LED_mult.srs"  -log  "D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synlog\Blinking_an_LED_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synwork\Blinking_an_LED_comp.srs|io:i|time:1740503859|size:1777|exec:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synwork\Blinking_an_LED_mult.srs|io:o|time:1740503861|size:1548|exec:0
+file:D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synlog\Blinking_an_LED_multi_srs_gen.srr|io:o|time:1740503861|size:713|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1734905422|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1734905424|size:3947520|exec:1

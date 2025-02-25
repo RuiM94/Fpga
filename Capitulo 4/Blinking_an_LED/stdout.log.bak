@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    GIGABYTE-G5KD
+Date:        Tue Feb 25 18:13:26 2025
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Blinking_an_LED_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\Blinking_an_LED.srr"
+Running: Blinking_an_LED_Implmnt in foreground
+
+Running Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+
+Running: compile (Compile) on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+# Tue Feb 25 18:13:26 2025
+
+Running: compile_flow (Compile Process) on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+# Tue Feb 25 18:13:26 2025
+
+Running: compiler (Compile Input) on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+# Tue Feb 25 18:13:26 2025
+compiler exited with errors
+Job failed on: Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED\Blinking_an_LED_Implmnt\synlog\Blinking_an_LED_compiler.srr"
+# Tue Feb 25 18:13:27 2025
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Compile Process on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+Complete: Compile on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+Complete: Logic Synthesis on Blinking_an_LED_syn|Blinking_an_LED_Implmnt
+
+exit status=2
+
+exit status=2
+

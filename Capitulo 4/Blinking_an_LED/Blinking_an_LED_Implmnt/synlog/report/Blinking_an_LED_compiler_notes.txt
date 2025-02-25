@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":4:7:4:24|Top entity is set to LED_Toggle_Project.
+@N: CD630 :"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":4:7:4:24|Synthesizing work.led_toggle_project.rtl.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":4:7:4:24|Selected library: work cell: LED_Toggle_Project view rtl as top level
+@N: NF107 :"D:\Users\Rui\Documents\FPGA\Capitulo 4\Blinking_an_LED.vhd":4:7:4:24|Selected library: work cell: LED_Toggle_Project view rtl as top level
+
